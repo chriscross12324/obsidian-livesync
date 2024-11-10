@@ -238,7 +238,7 @@ export class ModuleReplicateTest extends AbstractObsidianModule implements IObsi
         const files = [
             "README.md",
             "docs/translation_guide.md",
-            "docs/design_docs_of_journalsync.md",
+            "docs/journal_sync_design_document.md",
             "docs/design_docs_of_keep_newborn_chunks.md",
             "docs/design_docs_of_prefixed_hidden_file_sync.md",
             "docs/design_docs_of_sharing_tweak_value.md",
