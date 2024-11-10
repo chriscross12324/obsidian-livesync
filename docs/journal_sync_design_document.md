@@ -1,4 +1,4 @@
-# Journal Synchronization Design Guide
+# Journal Synchronization Design Document
 
 ## Goal
 - Synchronize vaults without using CouchDB.
