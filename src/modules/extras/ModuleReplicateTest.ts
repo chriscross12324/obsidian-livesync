@@ -237,7 +237,7 @@ export class ModuleReplicateTest extends AbstractObsidianModule implements IObsi
         const remoteTopDir = "https://raw.githubusercontent.com/vrtmrz/obsidian-livesync/refs/heads/main/";
         const files = [
             "README.md",
-            "docs/adding_translations.md",
+            "docs/translation_guide.md",
             "docs/design_docs_of_journalsync.md",
             "docs/design_docs_of_keep_newborn_chunks.md",
             "docs/design_docs_of_prefixed_hidden_file_sync.md",
