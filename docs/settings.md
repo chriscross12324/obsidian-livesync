@@ -511,6 +511,9 @@ Temporarily stop reflecting database changes into storage files.
 #### Recreate Missing Chunks for All Files  
 This will attempt to recreate missing chunks for all files. If there were any missing chunks, this may resolve errors.
 
+#### Resolve All Conflicted Files by the Newer One 
+Automatically resolves file conflicts by choosing the latest version. This action may overwrite older versions if conflicts are detected. Caution: This will overwrite older versions, and overwritten files cannot be recovered.
+
 #### Verify and Repair All Files  
 Compare the content of files between the local database and storage. If discrepancies are found, you will be prompted to choose which version to keep.
 
